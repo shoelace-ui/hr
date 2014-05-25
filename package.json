@@ -1,0 +1,13 @@
+{
+  "name": "shoelace-ui-hr",
+  "version": "0.0.1",
+  "description": "Default `hr` styles",
+  "repository": "https://github.com/shoelace-ui/hr.git",
+  "keywords": ["shoelace", "hr"],
+  "author": "Michael Andrew Vanasse <mail@mndvns.com>",
+  "license": "MIT",
+  "dependencies": {
+    "shoelace-ui-gray": "git+https://github.com/shoelace-ui/gray.git",
+    "shoelace-ui-line-height": "git+https://github.com/shoelace-ui/line-height.git"
+  }
+}

@@ -1,0 +1,22 @@
+/**
+ * Module dependencies
+ */
+
+@require 'shoelace-ui-line-height'
+@require './variables'
+
+/**
+ * Apply `hr` default styles.
+ *
+ * 1. Address browser differences
+ */
+
+hr
+  margin-top line-height--computed
+  margin-bottom line-height--computed
+  border 0
+  border-top 1px solid hr--border
+
+  -moz-box-sizing content-box // 1
+  box-sizing content-box // 1
+  height 0 // 1
