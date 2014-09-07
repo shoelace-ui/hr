@@ -1,9 +1,17 @@
 # hr
 
-Default `hr` styles.
+Default `hr` styles
 
+## Install
+
+```sh
+$ npm install shoelace-ui-hr
+```
 ## Usage
 
-```stylus
-@require 'hr'
+```styl
+@require 'shoelace-ui-hr'
 ```
+## License
+
+MIT
